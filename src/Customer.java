@@ -3,6 +3,13 @@ public class Customer {
     private String name;
     private String email;
 
+    public Customer(Integer l, String name, String mail) {
+        this.id = l;
+        this.name = name;
+        this.email = mail;
+
+    }
+
 
     public Integer getId() {
         return id;

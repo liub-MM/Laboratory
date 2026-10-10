@@ -6,6 +6,13 @@ public class Order {
     private List<Product> products;
     private OrderStatus status;
 
+    public Order(long l, Customer c, List<Product> list, OrderStatus orderStatus) {
+        this.id = l;
+        this.customer = c;
+        this.products = list;
+        this.status = orderStatus;
+    }
+
     public long getId() {
         return id;
     }
